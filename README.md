@@ -14,7 +14,7 @@ Repository for basic constructs for working with Rust
 | `vec.sort()` | sort |
 | `vec.iter()` | iterator |
 
-## How to check word[i]=='a'
+### How to check word[i]=='a'
 
 ```rust
 let c = word.chars().nth(i).unwrap();
@@ -24,10 +24,12 @@ if (c == 'a') {
 }
 ```
 
-## Create and fill vector
+### Create and fill vector
 
 ```rust
 let mut ans: Vec<i32> = Vec::with_capacity(l * 2);
 
 ans.resize(l * 2, 0);
 ```
+
+## **Hashmap/Set/Structures**
