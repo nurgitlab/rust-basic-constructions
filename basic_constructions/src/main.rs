@@ -11,8 +11,14 @@ fn main() {
         println!("i = {}", i);
     }
 
-
+    let mut numbers = vec![9, 8, 7, 10, 4];
+    numbers.sort_by(|a, b|a.cmp(b));
+    println!("{:?}", numbers);
     print!("{}\n", sum_round(1.9, 2.9));
+
+    let ch: char = 'a';
+
+    println!("Number: {}", ch as i32);
 }
 
 
