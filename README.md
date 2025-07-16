@@ -2,7 +2,7 @@
 Repository for basic constructs for working with Rust
 
 
-## **Vartical table of methods Vec<T>**
+## **Vertical table of methods Vec<T>**
 
 | Command | Description |
 | --- | --- |
