@@ -80,6 +80,11 @@ impl Solution {
 }
 ```
 
+## Vec -> HashSet
+```rust
+let mut set1: HashSet<i32> = nums1.into_iter().collect::<HashSet<i32>>();
+```
+
 ## HashMap
 
 ```rust
